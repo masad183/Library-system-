@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books Catalog - Library System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Library Management System</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">Books</a></li>
+                    <li><a href="login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="book-search">
+            <h2>Book Catalog</h2>
+            <div class="search-bar">
+                <input type="text" placeholder="Search books...">
+                <button class="btn">Search</button>
+            </div>
+            
+            <div class="book-list">
+                <div class="book-card">
+                    <h3>To Kill a Mockingbird</h3>
+                    <p>Author: Harper Lee</p>
+                    <p>ISBN: 978-0061120084</p>
+                    <p>Status: Available</p>
+                    <button class="btn">Borrow</button>
+                </div>
+                
+                <div class="book-card">
+                    <h3>1984</h3>
+                    <p>Author: George Orwell</p>
+                    <p>ISBN: 978-0451524935</p>
+                    <p>Status: Checked Out</p>
+                    <button class="btn" disabled>Unavailable</button>
+                </div>
+                
+                <div class="book-card">
+                    <h3>The Great Gatsby</h3>
+                    <p>Author: F. Scott Fitzgerald</p>
+                    <p>ISBN: 978-0743273565</p>
+                    <p>Status: Available</p>
+                    <button class="btn">Borrow</button>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 Library Management System</p>
+        </div>
+    </footer>
+</body>
+</html>
